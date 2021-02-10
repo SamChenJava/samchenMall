@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mall-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI4GBustmGSmX66CRFjZ64
+      secret-key: rp1Za22vVjDnFMvY0ZDKkm71BWS0Ru
+      oss:
+        endpoint: oss-ap-southeast-2.aliyuncs.com
+        bucket: gulimall-hello14
+server:
+  port: 30000
